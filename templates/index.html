@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body onload="myFunction()">
+
+
+<h1 id="qwerty">Next Word predictor</h1>
+
+
+<form action="" method="post">
+  <label for="firstname">Enter cue:</label>
+  <input type="text" id="firstname" name="fname" placeholder="">
+  <button type="submit" onclick="myFunction()">Predict</button>
+
+<h1>{{ dataToRender }}!</h1>
+
+<script>
+function myFunction() {
+
+  var txt = document.getElementById("firstname").value;
+  //document.getElementById("myBtn").innerHTML = txt;
+  
+  return txt
+}
+</script>
+</body>
+</html>
