@@ -7,3 +7,9 @@ source venv/bin/activate. <br/>
 python3 -m pip install -r requirements.txt <br/>
 python3 main.py <br/>
 
+
+
+
+Link to the azure hosting site <br/>
+https://msdocs-python-webapp-quickstart-cpst.azurewebsites.net/  
+
